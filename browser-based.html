@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Accessibility Dos and Donts</title>
+    <link href="./styles.css" rel="stylesheet">
+</head>
+<body>
+    <h2>1. Contrast and colour</h2>
+
+    <section> <h3>Contrast</h3>
+
+        <details>
+            <summary>
+                Text has 4.5:1 contrast. Large text (24 pixels, or 18 pixels and bold) has 3:1 contrast.
+            </summary>
+
+            <ul>
+                Details
+            </ul>
+        </details>
+
+        <details>
+            <summary>
+                I struggle to see interactive elements when they don't have a good contrast – or know what state they're in.
+            </summary>
+
+            <ul>
+                <li>
+                    Please make sure that interactive element have a 3:1 contrast.
+                </li>
+
+                <li>
+                    When an interactive element is in a special state (e.g. focused, or in error) please make sure that whatever you use to indicate that status has 3:1 contrast.
+                </li>
+            </ul>
+        </details>
+    </section>
+
+    <section> <h3>Use of colour</h3>
+        <details>
+            <summary>
+                I don't differentiate colours but I still need to understand what the page is saying and how to use it.
+                <div class="visually-hidden" aria-hidden>designer</div>
+            </summary>
+
+            <ul>
+                <li>
+                    Don't communicate information using just colour.
+
+                    <ul>
+                        <li>
+                            Don't use colour alone to identify data on infographics.
+                        </li>
+
+                        <li>
+                            If there are links in sentences or paragraphs, show me where they are using more than just colour.
+                        </li>
+
+                        <li>
+                            If I've made an error in a form, don't use colour alone (e.g. a red border) to show me where the error is.
+                        </li>
+                    </ul>
+                </li>
+
+            </ul>
+        </details>
+    </section>
+
+    <h2>2. Dynamic size and layout</h2>
+
+    <section> <h3>Page structure</h3>
+
+        <details>
+            <summary>
+                I use a screen reader. I need to understand what's on a page and use all the functionalities.
+            </summary>
+
+            <ul>
+                <li>
+                    Please use well-nested headings (even if some of them are visually hidden) to organise all the content on the page.
+                </li>
+
+                <li>
+                    Please use tables, when the data can be organised as a table.
+                </li>
+
+                <li>
+
+                </li>
+            </ul>
+        </details>
+    </section>
+
+    <h2>3. Structure and navigation</h2>
+
+    <section><h3>Text resizing</h3>
+        
+        <details>
+            <summary>
+                I need to increase the size of text to 200% so I can read it.
+            </summary>
+
+            <ul>
+                <li>
+                    Please do not prevent me from using pinch and zoom on touch-screen devices.
+                </li>
+
+                <li>
+                    Relative units?
+                </li>
+            </ul>
+        </details>
+
+        <details>
+            <summary>
+                I need to increase the space between lines, paragraphs, words and letters to help me read.
+            </summary>
+
+            <p>
+                Some explanations.
+            </p>
+
+            <ul>
+                <li>
+                    Please do not give limit both the width and height of elements.
+                </li>
+
+                <li>
+                    Please do not prevent me from overriding text styles.
+                </li>
+            </ul>
+        </details>
+    </section>
+
+    <section><h3>Responsive layout</h3>
+
+        <details>
+            <summary>
+                I need to make the page way bigger, and still have access to everything. If I need to scroll both horizontally and vertically, that makes finding and noticing things on the page almost impossible.
+            </summary>
+
+            <ul>
+                <li>
+                    Please make sure content will reflow to a single column when zoomed and not produce scrolling in both directions.
+                </li>
+            </ul>
+        </details>
+    </section>
+
+    <h2>4. Form inputs</h2>
+
+    <section><h3>Instructions</h3>
+        <details>
+            <summary>
+                I need to understand (and remember) what information I'm supposed to put in a text field.
+            </summary>
+
+            <ul>
+                <li>
+                    Make sure that all form inputs have a label that's associated in code.
+                </li>
+
+                <li>
+                    Make sure that the visible labels don't disappear when information is entered.
+                </li>
+           </ul>
+        </details>
+    </section>
+
+    <section><h3>Input errors</h3>
+        <details>
+            <summary>
+                I need to notice if I've made a mistake in a form.
+            </summary>
+
+            <ul>
+                <li>
+                    Clearly describe each input error in text. (It's not enough to just add a red border or an icon).
+                </li>
+
+                <li>
+                    Associate each error with the input that it relates to – both visually and in code.
+                </li>
+           </ul>
+        </details>
+
+        <details>
+            <summary>
+                I need to understand how to fix the mistake I've made.
+            </summary>
+
+            <ul>
+                <li>
+                    Provide suggestions for how the user can correct the mistake they've made.
+                </li>
+           </ul>
+        </details>
+    </section>
+
+    <section><h3>Review before submission</h3>
+        <details>
+            <summary>
+                I worry that I might make a mistake when I buy things online, take exams, submit personal data or make legal commitments.
+            </summary>
+
+            <ul>
+                <li>
+                    When users are about make a legal commitment, financial transaction, or an update to personal data, do one of the following:
+
+                    <ul>
+                        <li>
+                            Show a page allowing them to review, correct, and confirm the information they have entered before submitting it.
+                        </li>
+
+                        <li>
+                            – or – Provide an easy way to reverse the submission online.
+                        </li>
+                    </ul>
+                </li>
+           </ul>
+        </details>
+    </section>
+
+    <h2>5. Multiple ways to interact</h2>
+
+    <h2>6. Language and instructions</h2>
+
+    <section><h3>Inclusive instructions</h3>
+        <details>
+            <summary>
+                I can't see the page's layout or colours, so instructions that use words like "the button above" or "the green tick" mean nothing to me.
+            </summary>
+
+            <ul>
+                <li>
+                    Make sure that instructions don't rely on sensory characteristics of the interface.
+                </li>
+           </ul>
+        </details>
+
+    </section>
+
+    <section><h3>Language in code</h3>
+        <details>
+            <summary>
+                I need my screen reader to pronounce words correctly, otherwise I can't understand what it's saying.
+            </summary>
+
+            <ul>
+                <li>
+                    Specify the language of the page using the <code>lang</code> attribute on the <code>html</code> element.
+                </li>
+
+                <li>
+                    If the page includes words in a different language, specify that language using the <code>lang</code> attribute on the container element.
+                </li>
+            </ul>
+        </details>
+    </section>
+
+    <h2>7. Notifications, overlays and interruptions</h2>
+
+    <h2>8. Images, animations, audio and video</h2>
+
+    <h2>9. Custom components</h2>
+</body>
+</html>
