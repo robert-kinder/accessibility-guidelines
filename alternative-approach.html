@@ -1,7 +1,10 @@
 <!DOCTYPE html>
-<html>
-    <title>Accessibility Checklist</title>
-</html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Accessibility Dos and Donts</title>
+    <link href="./styles.css" rel="stylesheet">
+</head>
 <body>
     <h2>1. Contrast and colour</h2>
 
@@ -44,6 +47,7 @@
         <details>
             <summary>
                 I don't differentiate colours but I still need to understand what the page is saying and how to use it.
+                <div class="visually-hidden" aria-hidden>designer</div>
             </summary>
 
             <ul>
@@ -152,13 +156,7 @@
 
     <h2>4. Form inputs</h2>
 
-
-
-    <h2>5. Multiple ways to interact</h2>
-
-    <h2>6. Language and instructions</h2>
-
-    <section><h3>Instructions in forms</h3>
+    <section><h3>Instructions</h3>
         <details>
             <summary>
                 I need to understand (and remember) what information I'm supposed to put in a text field.
@@ -176,7 +174,7 @@
         </details>
     </section>
 
-    <section><h3>Input errors in forms</h3>
+    <section><h3>Input errors</h3>
         <details>
             <summary>
                 I need to notice if I've made a mistake in a form.
@@ -184,15 +182,55 @@
 
             <ul>
                 <li>
-                    Clearly describe each input error in text. (A red border is not enough).
+                    Clearly describe each input error in text. (It's not enough to just add a red border or an icon).
                 </li>
 
                 <li>
-                    Associate each error with the input that it relates to.
+                    Associate each error with the input that it relates to – both visually and in code.
+                </li>
+           </ul>
+        </details>
+
+        <details>
+            <summary>
+                I need to understand how to fix the mistake I've made.
+            </summary>
+
+            <ul>
+                <li>
+                    Provide suggestions for how the user can correct the mistake they've made.
                 </li>
            </ul>
         </details>
     </section>
+
+    <section><h3>Review before submission</h3>
+        <details>
+            <summary>
+                I worry that I might make a mistake when I buy things online, take exams, submit personal data or make legal commitments.
+            </summary>
+
+            <ul>
+                <li>
+                    When users are about make a legal commitment, financial transaction, or an update to personal data, do one of the following:
+
+                    <ul>
+                        <li>
+                            Show a page allowing them to review, correct, and confirm the information they have entered before submitting it.
+                        </li>
+
+                        <li>
+                            – or – Provide an easy way to reverse the submission online.
+                        </li>
+                    </ul>
+                </li>
+           </ul>
+        </details>
+    </section>
+
+    <h2>5. Multiple ways to interact</h2>
+
+    <h2>6. Language and instructions</h2>
 
     <section><h3>Inclusive instructions</h3>
         <details>
@@ -233,3 +271,4 @@
 
     <h2>9. Custom components</h2>
 </body>
+</html>
