@@ -3,47 +3,7 @@
     <title>Accessibility Checklist</title>
 </html>
 <body>
-    <section> <h3>Page structure</h3>
-
-        <details>
-            <summary>
-                I use a screen reader. I need to understand what's on a page and use all the functionalities.
-            </summary>
-
-            <ul>
-                <li>
-                    Please use well-nested headings (even if some of them are visually hidden) to organise all the content on the page.
-                </li>
-
-                <li>
-                    Please use tables, when the data can be organised as a table.
-                </li>
-
-                <li>
-
-                </li>
-            </ul>
-        </details>
-    </section>
-
-    <section> <h3>Use of colour</h3>
-
-        <details>
-            <summary>
-                I don't differentiate colours but I still need to understand what the page is saying and how to use it.
-            </summary>
-
-            <ul>
-                <li>
-                    Please don't communicate information using just colour.
-                </li>
-
-                <li>
-                    If there are links in sentences or paragraphs, please show me where they are using more than just colour.
-                </li>
-            </ul>
-        </details>
-    </section>
+    <h2>1. Contrast and colour</h2>
 
     <section> <h3>Contrast</h3>
 
@@ -79,6 +39,62 @@
             </ul>
         </details>
     </section>
+
+    <section> <h3>Use of colour</h3>
+        <details>
+            <summary>
+                I don't differentiate colours but I still need to understand what the page is saying and how to use it.
+            </summary>
+
+            <ul>
+                <li>
+                    Don't communicate information using just colour.
+
+                    <ul>
+                        <li>
+                            Don't use colour alone to identify data on infographics.
+                        </li>
+
+                        <li>
+                            If there are links in sentences or paragraphs, show me where they are using more than just colour.
+                        </li>
+
+                        <li>
+                            If I've made an error in a form, don't use colour alone (e.g. a red border) to show me where the error is.
+                        </li>
+                    </ul>
+                </li>
+
+            </ul>
+        </details>
+    </section>
+
+    <h2>2. Dynamic size and layout</h2>
+
+    <section> <h3>Page structure</h3>
+
+        <details>
+            <summary>
+                I use a screen reader. I need to understand what's on a page and use all the functionalities.
+            </summary>
+
+            <ul>
+                <li>
+                    Please use well-nested headings (even if some of them are visually hidden) to organise all the content on the page.
+                </li>
+
+                <li>
+                    Please use tables, when the data can be organised as a table.
+                </li>
+
+                <li>
+
+                </li>
+            </ul>
+        </details>
+    </section>
+
+    <h2>3. Structure and navigation</h2>
 
     <section><h3>Text resizing</h3>
         
@@ -133,4 +149,87 @@
             </ul>
         </details>
     </section>
+
+    <h2>4. Form inputs</h2>
+
+
+
+    <h2>5. Multiple ways to interact</h2>
+
+    <h2>6. Language and instructions</h2>
+
+    <section><h3>Instructions in forms</h3>
+        <details>
+            <summary>
+                I need to understand (and remember) what information I'm supposed to put in a text field.
+            </summary>
+
+            <ul>
+                <li>
+                    Make sure that all form inputs have a label that's associated in code.
+                </li>
+
+                <li>
+                    Make sure that the visible labels don't disappear when information is entered.
+                </li>
+           </ul>
+        </details>
+    </section>
+
+    <section><h3>Input errors in forms</h3>
+        <details>
+            <summary>
+                I need to notice if I've made a mistake in a form.
+            </summary>
+
+            <ul>
+                <li>
+                    Clearly describe each input error in text. (A red border is not enough).
+                </li>
+
+                <li>
+                    Associate each error with the input that it relates to.
+                </li>
+           </ul>
+        </details>
+    </section>
+
+    <section><h3>Inclusive instructions</h3>
+        <details>
+            <summary>
+                I can't see the page's layout or colours, so instructions that use words like "the button above" or "the green tick" mean nothing to me.
+            </summary>
+
+            <ul>
+                <li>
+                    Make sure that instructions don't rely on sensory characteristics of the interface.
+                </li>
+           </ul>
+        </details>
+
+    </section>
+
+    <section><h3>Language in code</h3>
+        <details>
+            <summary>
+                I need my screen reader to pronounce words correctly, otherwise I can't understand what it's saying.
+            </summary>
+
+            <ul>
+                <li>
+                    Specify the language of the page using the <code>lang</code> attribute on the <code>html</code> element.
+                </li>
+
+                <li>
+                    If the page includes words in a different language, specify that language using the <code>lang</code> attribute on the container element.
+                </li>
+            </ul>
+        </details>
+    </section>
+
+    <h2>7. Notifications, overlays and interruptions</h2>
+
+    <h2>8. Images, animations, audio and video</h2>
+
+    <h2>9. Custom components</h2>
 </body>
