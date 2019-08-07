@@ -3,130 +3,134 @@
     <title>Accessibility Checklist</title>
 </html>
 <body>
+    <section> <h3>Page structure</h3>
 
-    <h3>Page structure</h3>
+        <details>
+            <summary>
+                I use a screen reader. I need to understand what's on a page and use all the functionalities.
+            </summary>
 
-    <details>
-        <summary>
-            I use a screen reader. I need to understand what's on a page and use all the functionalities.
-        </summary>
+            <ul>
+                <li>
+                    Please use well-nested headings (even if some of them are visually hidden) to organise all the content on the page.
+                </li>
 
-        <ul>
-            <li>
-                Please use well-nested headings (even if some of them are visually hidden) to organise all the content on the page.
-            </li>
+                <li>
+                    Please use tables, when the data can be organised as a table.
+                </li>
 
-            <li>
-                Please use tables, when the data can be organised as a table.
-            </li>
+                <li>
 
-            <li>
+                </li>
+            </ul>
+        </details>
+    </section>
 
-            </li>
-        </ul>
-    </details>
+    <section> <h3>Use of colour</h3>
 
-    <h3>Use of colour</h3>
+        <details>
+            <summary>
+                I don't differentiate colours but I still need to understand what the page is saying and how to use it.
+            </summary>
 
-    <details>
-        <summary>
-            I don't differentiate colours but I still need to understand what the page is saying and how to use it.
-        </summary>
+            <ul>
+                <li>
+                    Please don't communicate information using just colour.
+                </li>
 
-        <ul>
-            <li>
-                Please don't communicate information using just colour.
-            </li>
+                <li>
+                    If there are links in sentences or paragraphs, please show me where they are using more than just colour.
+                </li>
+            </ul>
+        </details>
+    </section>
 
-            <li>
-                If there are links in sentences or paragraphs, please show me where they are using more than just colour.
-            </li>
-        </ul>
-    </details>
+    <section> <h3>Contrast</h3>
 
-    <h3>Contrast</h3>
+        <details>
+            <summary>
+                I struggle to read text when it doesn't have good contrast.
+            </summary>
 
-    <details>
-        <summary>
-            I struggle to read text when it doesn't have good contrast.
-        </summary>
+            <ul>
+                <li>
+                    If text is big (24+ pixels or 18+ pixels and bold) please make sure there's at least 3:1 contrast.
+                </li>
 
-        <ul>
-            <li>
-                If text is big (24+ pixels or 18+ pixels and bold) please make sure there's at least 3:1 contrast.
-            </li>
+                <li>
+                    If text is not big, please give it a24+ pixels (or 18+ pixels and bold), please give it at least 4.5:1 contrast.
+                </li>
+            </ul>
+        </details>
 
-            <li>
-                If text is not big, please give it a24+ pixels (or 18+ pixels and bold), please give it at least 4.5:1 contrast.
-            </li>
-        </ul>
-    </details>
+        <details>
+            <summary>
+                I struggle to see interactive elements when they don't have a good contrast – or know what state they're in.
+            </summary>
 
-    <details>
-        <summary>
-            I struggle to see interactive elements when they don't have a good contrast – or know what state they're in.
-        </summary>
+            <ul>
+                <li>
+                    Please make sure that interactive element have a 3:1 contrast.
+                </li>
 
-        <ul>
-            <li>
-                Please make sure that interactive element have a 3:1 contrast.
-            </li>
+                <li>
+                    When an interactive element is in a special state (e.g. focused, or in error) please make sure that whatever you use to indicate that status has 3:1 contrast.
+                </li>
+            </ul>
+        </details>
+    </section>
 
-            <li>
-                When an interactive element is in a special state (e.g. focused, or in error) please make sure that whatever you use to indicate that status has 3:1 contrast.
-            </li>
-        </ul>
-    </details>
+    <section><h3>Text resizing</h3>
+        
+        <details>
+            <summary>
+                I need to increase the size of text to 200% so I can read it.
+            </summary>
 
-    <h3>Text resizing</h3>
-    
-    <details>
-        <summary>
-            I need to increase the size of text to 200% so I can read it.
-        </summary>
+            <ul>
+                <li>
+                    Please do not prevent me from using pinch and zoom on touch-screen devices.
+                </li>
 
-        <ul>
-            <li>
-                Please do not prevent me from using pinch and zoom on touch-screen devices.
-            </li>
+                <li>
+                    Relative units?
+                </li>
+            </ul>
+        </details>
 
-            <li>
-                Relative units?
-            </li>
-        </ul>
-    </details>
+        <details>
+            <summary>
+                I need to increase the space between lines, paragraphs, words and letters to help me read.
+            </summary>
 
-    <details>
-        <summary>
-            I need to increase the space between lines, paragraphs, words and letters to help me read.
-        </summary>
+            <p>
+                Some explanations.
+            </p>
 
-        <p>
-            Some explanations.
-        </p>
+            <ul>
+                <li>
+                    Please do not give limit both the width and height of elements.
+                </li>
 
-        <ul>
-            <li>
-                Please do not give limit both the width and height of elements.
-            </li>
+                <li>
+                    Please do not prevent me from overriding text styles.
+                </li>
+            </ul>
+        </details>
+    </section>
 
-            <li>
-                Please do not prevent me from overriding text styles.
-            </li>
-        </ul>
-    </details>
+    <section><h3>Responsive layout</h3>
 
-    <h3>Responsive layout</h3>
+        <details>
+            <summary>
+                I need to make the page way bigger, and still have access to everything. If I need to scroll both horizontally and vertically, that makes finding and noticing things on the page almost impossible.
+            </summary>
 
-    <details>
-        <summary>
-            I need to make the page way bigger, and still have access to everything. If I need to scroll both horizontally and vertically, that makes finding and noticing things on the page almost impossible.
-        </summary>
-
-        <ul>
-            <li>
-                Please make sure content will reflow to a single column when zoomed and not produce scrolling in both directions.
-            </li>
-        </ul>
-    </details>
+            <ul>
+                <li>
+                    Please make sure content will reflow to a single column when zoomed and not produce scrolling in both directions.
+                </li>
+            </ul>
+        </details>
+    </section>
 </body>
