@@ -6,8 +6,6 @@ Click on each guideline to see details and code examples.
 
 This summary is a simplification. If you're not sure how to meet a requirement, check the official [Web Content Accessibility Guidelines 2.1](https://www.w3.org/TR/WCAG21/).
 
----
-
 ### 1. Easy to perceive
 
 Your website/app must present information in ways people can recognise and use, no matter how they consume content (for example if they have low vision, or use assistive technologies like a screen reader).
@@ -27,7 +25,6 @@ Where | What
 *Content* | [Captions (videos and presentations)](): For videos and presentations (both live and pre-recorded), provide captions.
 *Content* | [Text or audio description (videos and presentations)](): For videos and presentations, provide an equivalent text description, or an audio description of what happens on screen.
 *Content* | [Audio description (videos presentations if pre-recorded)](): For videos and presentations that are pre-recorded, provide an audio description of what happens on screen, even if you've already provided a text description. |
-
 
 #### 1.3. Create content that can be presented in different ways
 
@@ -52,8 +49,6 @@ Where | What
 *Design Code* | [Text spacing](): Ensure that no information or functionality gets lost if users increase the space between lines, paragraphs, letters and words.
 *Code* | [Images of text](): Use real text rather than images of text.
 *Code* | [Extra content on hover or focus](): If content (like a tooltip) appears when users hover over an element with their mouse (or tab to it with their keyboard), it must be easy to dismiss, easy to reach and remain visible.
-
----
 
 ### 2. Easy to operate
 
@@ -103,8 +98,6 @@ Where | What
 *Code* | [Label in name](): When an interactive control has a name on screen, make sure that assistive technologies (like Voice Control) know it by the same name (or a name that includes the name on screen).
 *Design Code* | [Device motion](): If a feature uses the device's motion (like shaking or tilting), make sure that responses to these motions can be turned off, and that the feature can be used in another way.
 
----
-
 ### 3. Easy to understand
 
 Your website/app must make it easy for people to understand information and how to complete tasks.
@@ -132,8 +125,6 @@ Where | What
 *Design Code* | [Form labels and instructions](): Provide form labels to make it clear what information is expected, and optionally provide extra hints to help people avoid mistakes.
 *Design Code* | [Error suggestions](): When someone makes a mistake, give them suggestions on how to correct it, unless it compromises security.
 *Design Code* | [Error prevention](): If users are making a legal commitment, financial transaction, or updating personal data, give them a way to review and check the information they have entered.
-
----
 
 ### 4. Robust and compatible
 
